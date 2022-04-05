@@ -1,4 +1,4 @@
 select
-  stg.id as producttype
-  stg.name as name
+  stg.id as mdmproducttype
+  stg.name as mdmname
 from stg_datasul_item as stg
