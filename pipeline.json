@@ -32,28 +32,6 @@
           }
         ]
       }
-    },
-    {
-      "pipelineName": "item_main",
-      "pipelineDescription": "Pipeline for the itemdsale table, that uses staging datasul_item",
-      "outputDataModelName": "mdmitemsale",
-      "overlapDeltaMinutes": 180,
-      "saveToCds": true,
-      "saveToUnified": true,
-      "sendToSubscriptions": true,
-      "cronExpressions": [
-        "0 5,15,25,35,45,55 * * * ?"
-      ],
-      "timeZone": "America/Sao_Paulo",
-      "processScript": "item.sql",
-      "sourceEntities": {
-        "stagings": [
-          {
-            "connectorName": "datasul",
-            "stagingName": "item"
-          }
-        ]
-      }
     }
   ]
 }
