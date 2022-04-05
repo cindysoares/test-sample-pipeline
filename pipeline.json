@@ -14,7 +14,7 @@
       "outputDataModelName": "mdmproduct",
       "overlapDeltaMinutes": 180,
       "saveToCds": true,
-      "saveToUnified": true,
+      "saveToUnified": false,
       "sendToSubscriptions": true,
       "cronExpressions": [
         "0 5,15,25,35,45,55 * * * ?"
