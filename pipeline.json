@@ -41,7 +41,7 @@
       "saveToCds": true,
       "saveToUnified": true,
       "sendToSubscriptions": true,
-      "sendRealtime=true": true,
+      "sendRealtime": true,
       "cronExpressions": [
         "0 5,15,25,35,45,55 * * * ?"
       ],
