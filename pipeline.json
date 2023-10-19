@@ -57,6 +57,10 @@
           {
             "connectorName": "datasul",
             "stagingName": "item"
+          },
+          {
+            "connectorName": "datasul",
+            "stagingName": "customer"
           }
         ]
       }
