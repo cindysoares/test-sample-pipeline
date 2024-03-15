@@ -1,5 +1,6 @@
 select
-  stg.cod_emitente as mdmproducttype
+  stg.cod_emitente as mdmproducttype,
+  stg.name as mdmtotalvalue
   --stg.id as mdmproducttype,
   --stg.name as mdmname
   --metadata--
