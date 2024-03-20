@@ -1,6 +1,9 @@
 select
   stg.cod_emitente as mdmproducttype,
-  stg.cidade as mdmtotalvalue
+  CASE
+    WHEN stg.id=1478 THEN 10
+    ELSE stg.cidade
+  END as mdmtotalvalue
   --stg.id as mdmproducttype,
   --stg.name as mdmname
   --metadata--
