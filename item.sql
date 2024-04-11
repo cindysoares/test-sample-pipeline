@@ -7,4 +7,4 @@ select
   --stg.id as mdmproducttype,
   --stg.name as mdmname
   --metadata--
-from `2aa8a1209af3469bb51a54d4c172605b.stg_datasul_item` as stg
+from stg_datasul_item as stg
