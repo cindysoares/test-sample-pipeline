@@ -16,6 +16,7 @@
       "saveToCds": true,
       "saveToUnified": false,
       "sendToSubscriptions": true,
+      "useBatchNotification": true,
       "maxNumWorkers": 4,
       "workerType": "n1-standard-2",
       "cronExpressions": [
